@@ -8,4 +8,5 @@ PuppetLint::RakeTask.new :lint do |config|
   config.fail_on_warnings = true
 end
 
+
 PuppetSyntax.exclude_paths = ["spec/fixtures/**/*.pp", "vendor/**/*"]
